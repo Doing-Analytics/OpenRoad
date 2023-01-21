@@ -1,0 +1,23 @@
+<h1>請填入會員資訊</h1>
+
+<%= form_with model: @user, url: sessions_path(@user), method: 'post' do |u_form| %>
+
+  <%= u_form.label :name, '名字' %>
+  <%= u_form.text_field :name %>
+
+  <%= u_form.label :email, '信箱' %>
+  <%= u_form.email_field :email %>
+
+  <%= u_form.label :phone, '電話' %>
+  <%= u_form.text_field :phone %>
+
+  <%= u_form.label :password, '密碼' %>
+  <%= u_form.password_field :password %>
+
+  <%= u_form.label :password_confirmation, '確認密碼' %>
+  <%= u_form.password_field :password_confirmation %>
+
+  <div>
+    <%= u_form.submit '送出' %>
+  </div>
+<% end %>
