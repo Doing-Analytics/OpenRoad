@@ -12,6 +12,7 @@ gem "redis", "~> 4.0"
 gem 'sorcery'
 gem "pundit", "~> 2.3"
 gem "image_processing", ">= 1.2"
+gem "view_component"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
