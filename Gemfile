@@ -13,6 +13,7 @@ gem 'sorcery'
 gem "pundit", "~> 2.3"
 gem "image_processing", ">= 1.2"
 gem "view_component"
+gem 'aasm'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
